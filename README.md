@@ -29,7 +29,7 @@ Price Monitor checks this repository for new releases **every day** or **every w
 To verify a download by hand:
 
 ```powershell
-Get-FileHash ".\Price Monitor Portable v3.3.3.exe" -Algorithm SHA256
+Get-FileHash ".\Price Monitor Portable v3.3.4.exe" -Algorithm SHA256
 ```
 
 and compare it with the SHA-256 in the release notes.

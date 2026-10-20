@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.3.4 — 2026-10-20
+
+Sharp text on scaled displays, clearer price colours.
+
+- Sharp text and icons at 125%, 150% and other Windows display scaling: the app now draws at the screen's real resolution instead of being stretched (blurry, pixelated) by Windows. The layout scales with the display.
+- Price rise is green, price drop is red (Alerts & activity, "Change in 24 hours").
+- "Change in 24 hours" shows the percentage on the line below, so the amount is no longer cut off.
+- Jagged fallback symbols (✓ ⚠ ⏸ ✕) replaced with smooth drawn ones; smooth check boxes in dialogs; clipped buttons and links fixed.
+
 ## 3.3.3 — 2026-10-20
 
 Smoother chart, tray start option, clearer update notice.
