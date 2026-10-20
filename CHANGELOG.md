@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.3.3 — 2026-10-20
+
+Smoother chart, tray start option, clearer update notice.
+
+- Smoother, cleaner price chart: smooth anti-aliased curves through every daily price (no overshoot), a soft colour fade under each line, round axis values and lighter grid lines. Hover to see the date and each site's price.
+- New option Settings → Checking schedule → **Start hidden in the tray** (on by default). Turn it off to open the window at every start.
+- When a new version is found, the **What's new** window opens by itself once for that version (also from the tray; not for skipped versions or with automatic install). The tray icon shows an orange dot, its tooltip names the version and the tray menu shows **Update available**.
+
 ## 3.3.2 — 2026-10-20
 
 Fix: restart after an update.
