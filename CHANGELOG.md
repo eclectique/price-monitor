@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.3.1 — 2026-10-20
+
+Smaller download, same app.
+
+- The EXE no longer bundles parts the app never uses (unused image codecs and font engine, browser developer tools, a time-zone database). It is about 8 MB smaller and unpacks a little faster at every start.
+- No change in behaviour: price checks, the window, tray icon and updates work exactly as in 3.3.0.
+
 ## 3.3.0 — 2026-10-20
 
 Lighter on weak PCs, smoother switches.
