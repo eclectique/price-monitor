@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.3.0 — 2026-10-20
+
+Lighter on weak PCs, smoother switches.
+
+- Faster, lighter price checks: one browser is shared by all sources of a check, and pages load without images, fonts, ads and third-party trackers ("Don't load images", on by default). Measured on 2 products × 2 sites: check time 29.9 s → 18.6 s, browser CPU −58%, peak browser memory 885 MB → 502 MB — same prices found. If a site fails in light mode, the retry loads the page fully.
+- Almost no CPU while in the tray: the hidden window no longer re-reads the log or redraws (idle CPU −96%).
+- The log file rotates at 2 MB; price and alert history are read incrementally; product search waits until you stop typing.
+- Smaller, smoother on/off switches with hover and focus states.
+
 ## 3.2.0 — 2026-10-20
 
 Built-in updates.
