@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.3.2 — 2026-10-20
+
+Fix: restart after an update.
+
+- After installing an update, the app could fail to restart with "Failed to load Python DLL … _MEI…\python312.dll". The update itself was installed; only the automatic restart failed. The new version now starts as a fresh, independent program after updating.
+- Updating from 3.2.0–3.3.1 can still show this message once (the restart is done by the old version) — click OK and start Price Monitor again; it is already updated.
+
 ## 3.3.1 — 2026-10-20
 
 Smaller download, same app.
